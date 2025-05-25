@@ -21,8 +21,8 @@ This is a simple page to practice HTML and CSS. The challenge comes from the Fro
 
 ### Links
 
-- Solution from frontend Mentor URL: [Here]()
-- Live Site URL: [Here]()
+- Solution from frontend Mentor URL: [Here](https://www.frontendmentor.io/solutions/qr-code-component-mobile-first-responsive-TPb82miDaJ)
+- Live Site URL: [Here](https://qrcodecomponent-agilepanda482.netlify.app/)
 
 ## My process
 
