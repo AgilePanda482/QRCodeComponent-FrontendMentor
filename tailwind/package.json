@@ -1,0 +1,29 @@
+{
+  "name": "qrcodecomponent-tailwind",
+  "version": "1.0.0",
+  "description": "another landing page with tailwind",
+  "keywords": [
+    "tailwind",
+    "frontendmentor",
+    "qrcodecomponent"
+  ],
+  "homepage": "https://github.com/AgilePanda482/QRCodeComponent-FrontendMentor#readme",
+  "bugs": {
+    "url": "https://github.com/AgilePanda482/QRCodeComponent-FrontendMentor/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgilePanda482/QRCodeComponent-FrontendMentor.git"
+  },
+  "license": "ISC",
+  "author": "agilepanda482",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "test": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
