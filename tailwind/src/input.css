@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+    --color-primary: #D5E1EF;
+    --color-title: rgb(31, 49, 79);
+    --color-subtitle: #68778D;
+
+    --font-outfit: 'Outfit', system-ui, sans-serif;
+}

@@ -4,26 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link href="./output.css" rel="stylesheet">
+  <link href="../dist/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   <title>Frontend Mentor | QR code component</title>
 </head>
-<body>
-  <main>
-    <div>
-      <section>
-        <img src="./assets/images/image-qr-code.png" alt="an blue image with a QR">
+<body class="bg-primary font-outfit min-h-dvh flex flex-col items-center">
+  <main class="flex-1 flex justify-center items-center">
+    <div class="bg-white max-w-sm p-4 pb-10 rounded-2xl flex flex-col gap-5 shadow-xl">
+      <section class="flex flex-col items-center">
+        <img class="w-full rounded-xl" src="./assets/images/image-qr-code.png" alt="an blue image with a QR">
       </section>
 
-      <section>
-        <h1>Improve your front-end skills by building projects</h1>
-        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      <section class="flex flex-col items-center px-3 gap-4">
+        <h1 class="text-center text-title font-bold text-[1.6rem]/8">Improve your front-end skills by building projects</h1>
+        <p class="text-center text-subtitle font-normal text-xl">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
       </section>
     </div>
   </main>
 
-  <footer>
-    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/AgilePanda482">Sebastian Rico Vela</a>.</p>
+  <footer class="flex justify-center">
+    <p class="text-center">Challenge by <a class="text-blue-800 hover:underline" href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+    Coded by <a class="text-blue-800 hover:underline" href="https://github.com/AgilePanda482">Sebastian Rico Vela</a>.</p>
   </footer>
 </body>
 </html>

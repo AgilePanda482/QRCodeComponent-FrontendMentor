@@ -20,7 +20,8 @@
   "type": "commonjs",
   "main": "index.html",
   "scripts": {
-    "test": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+    "build:styles": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --minify",
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
