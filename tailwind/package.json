@@ -20,7 +20,7 @@
   "type": "commonjs",
   "main": "index.html",
   "scripts": {
-    "build:styles": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --minify",
+    "build:styles": "npx @tailwindcss/cli -i ./src/input.css -o ./src/dist/output.css --minify",
     "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch"
   },
   "dependencies": {
