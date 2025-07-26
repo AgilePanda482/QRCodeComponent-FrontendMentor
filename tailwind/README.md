@@ -11,7 +11,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Author](#author)
 
 ## Overview
-This is a simple page to practice HTML and CSS. The challenge comes from the Frontend Mentor page.
+A simple page to practice HTML and Tailwind. The challenge comes from the Frontend Mentor page.
 
 ### Screenshot
 
@@ -21,15 +21,14 @@ This is a simple page to practice HTML and CSS. The challenge comes from the Fro
 
 ### Links
 
-- Solution from frontend Mentor URL: [Here](https://www.frontendmentor.io/solutions/qr-code-component-mobile-first-responsive-TPb82miDaJ)
-- Live Site URL: [Here](https://qrcodecomponent-agilepanda482.netlify.app/)
+- Solution from frontend Mentor URL: [Here]()
+- Live Site URL: [Here](https://qrcomponent-tailwind-agp482.netlify.app/)
 
 ## My process
 
 ### Built with
 - HTML5
-- CSS
-- Flexbox
+- Tailwind 4
 - Mobile-first workflow
 
 ## Author
